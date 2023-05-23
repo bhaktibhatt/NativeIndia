@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background: #00DF75;
+    justify-content: space-between;
+}
+.logo-links{
+    display: flex;
+    width:24vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav .logo{
+    padding : 8px;
+}
+nav .logo img{
+    height: 24px;
+    width: 24px;
+}
+nav .nav-ele{
+    width: 16vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+svg{
+    width: 24px;
+    height: 24px;
+}
+.search-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20vw;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    background: #F1F1EF;
+    padding: 4px;
+    border-radius:18px ;
+}
+.searchbar input{
+    all:unset;
+}
